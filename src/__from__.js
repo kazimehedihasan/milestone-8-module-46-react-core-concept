@@ -7,4 +7,6 @@
  * 4. uncontrolled element: useRaf to create a reference to to the 
  * element and access value by using like : nameRef.current.value
  * 
+ * 5. use hook to handle states and submit and error . example react hook from 
+ * 5. reusable component . 
 */
