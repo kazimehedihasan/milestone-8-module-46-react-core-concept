@@ -1,27 +1,30 @@
 
 // import { data } from 'autoprefixer';
-import './App.css'
-import ReusableFrom from './components/ReusableFrom/ReusableFrom'
+// import './App.css'
+// import ReusableFrom from './components/ReusableFrom/ReusableFrom'
 // import CoustomHookForm from './components/CoustomHookForm/CoustomHookForm'
 // import RafForm from './components/RafForm/RafForm'
 // import SimpleForm from './components/SimpleForm/SimpleForm'
 // import SimpleForm from './components/SimpleForm/SimpleForm'
 
+import Grandpa from "./components/Grandpa/Grandpa"
+
 function App() {
-const handleSingUpSubmit = data => {
- console.log('sign up data: ', data);
-}
-const handleUpdateProfile = data => {
-console.log('update profile ', data);
-}
+// const handleSingUpSubmit = data => {
+//  console.log('sign up data: ', data);
+// }
+// const handleUpdateProfile = data => {
+// console.log('update profile ', data);
+// }
 
   return (
     <div>
+      <Grandpa></Grandpa>
     {/* <SimpleForm></SimpleForm> */}
     {/* <SimpleForm></SimpleForm> */}
     {/* <RafForm></RafForm> */}
     {/* <CoustomHookForm></CoustomHookForm> */}
-    <ReusableFrom formTitle={'sing up'} 
+    {/* <ReusableFrom formTitle={'sing up'} 
   
     handleSubmit={handleSingUpSubmit}>
       <div>
@@ -29,13 +32,15 @@ console.log('update profile ', data);
         <p>Please sing up right now</p>
       </div>
     </ReusableFrom>
-    <ReusableFrom formTitle={'profile Updete'} handleSubmit={handleUpdateProfile} submitBtnText='Update'>
+    <ReusableFrom formTitle={'profile Updete'} handleSubmit={handleUpdateProfile} submitBtnText='Update'> */}
 
-    <div>
+    {/* <div>
         <h2>Update profile</h2>
         <p>Always keep your profile updated</p>
         </div>
-    </ReusableFrom>
+    </ReusableFrom> */}
+
+
     </div>
   )
 }
